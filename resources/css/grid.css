@@ -10,7 +10,7 @@
 /*  GROUPING  ============================================================================= */
 
 .row {
-    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+		zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
 .row:before,
