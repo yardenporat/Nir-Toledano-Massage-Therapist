@@ -1,195 +1,257 @@
-
 /* big tablets and small computer  */
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1200px) {
     .hero-text-box {
         width: 100%;
         padding: 0 4%;
     }
 
-    .row{padding: 0 2%;}
+    .row {
+        padding: 0 2%;
+    }
 }
 /* FOOTER */
-.footer-nav {    width: 100%;}
-.social-links { width: 100%;}
-
-
+.footer-nav {
+    width: 100%;
+}
+.social-links {
+    width: 100%;
+}
 
 /* ---------------------------------------------- */
 /*small tablet to big tablet (ipad portrait mode) */
-@media only screen and (max-width: 1023px){
-    body{font-size: 18px;}
-    section {padding: 60px;}
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 60px;
+    }
 
-    .long-copy{
+    .long-copy {
         width: 80%;
         /* margin-left: 10%; */
         margin: 0 auto;
     }
 
     /*HOW IT WORKS*/
-    .steps-box {margin-top: 20px;}
-    .steps-box:last-child{margin-top: 20px;}
-    .worksteps{margin-bottom: 15%;}
-    .app-screen {width: 55%;}
+    .steps-box {
+        margin-top: 20px;
+    }
+    .steps-box:last-child {
+        margin-top: 20px;
+    }
+    .worksteps {
+        margin-bottom: 15%;
+    }
+    .app-screen {
+        width: 55%;
+    }
 
     .btn-app img {
         height: 40px;
         width: auto;
     }
 
-/* CITIES */
-.section-cities img{height: 100px;}
-.section-cities p{font-size: 75%;}
-.section-cities h3{font-size: 80%;}
-.icon-small {width: 10%;}
-
-/* TESTIMONIALS */
-cite{font-size: 110%;}
-
-/* PLANS */
-.section-plans {
-    padding-left: 1%;
-    padding-right: 1%;
-}
-
-.plan-box div{padding: 10px;}
-.plan-box [name=checkmark-outline] {
-    margin-right: 2%;
-    height: 20px;
-}
-.price-per-meal{font-size: 80%;}
-.plan{font-size: 77%;}
-
-/* CONTACT US */
-.section-form{margin-right: -90px;}
-
-/* FOOTER */
-.footer-nav {    width: 100%;}
-.social-links { width: 100%;}
-
-
-
-
-
-
-
-
-/* small phones to small tablet */
-/*ipad is 768px*/
-
-@media only screen and (max-width: 867px){
-    body {font-size: 16px;}
-    section {padding: 30px;}
-    .row,.hero-text-box{padding: 0 4%;}
-    .col {
-        width: 100%;
-        margin: 0 0 2% 0  }
-
-    
-    
-    .section-features .long-copy {margin-bottom: 20px;}
-    .long-copy{
-        font-size: 22px;
-        text-align: center;
-    }
-
-    h3{font-size: 150%;}
-
-    .box p{
-        text-align: center;
-        font-size: 20px;
-    }
-    /* TESTIMONIALS */
-    .customer-quote{
-        padding-bottom: 6%;
-    }
     /* CITIES */
-    .section-cities img{
-        width: 100%;
-        height: auto;
-        padding: 0;
+    .section-cities img {
+        height: 100px;
     }
-    .section-cities h3{
-        font-size: 150%;
-        margin-bottom: 8px;
+    .section-cities p {
+        font-size: 75%;
     }
-    .section-cities p{font-size: 110%;}
-
-    .section-cities .icon-small{
-        margin-left: 10px;
+    .section-cities h3 {
+        font-size: 80%;
+    }
+    .icon-small {
         width: 10%;
     }
 
+    /* TESTIMONIALS */
+    cite {
+        font-size: 110%;
+    }
+
     /* PLANS */
-    .plan-box{margin: auto}
-    .plan-box div{ padding: 15px;}
-    .price-per-meal{font-size: 130%;}
-    .plan{font-size: 120%;}
+    .section-plans {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
 
-
-    /* FOOTER */
-    footer p {margin-top: -2px;}
+    .plan-box div {
+        padding: 10px;
+    }
+    .plan-box [name='checkmark-outline'] {
+        margin-right: 2%;
+        height: 20px;
+    }
+    .price-per-meal {
+        font-size: 80%;
+    }
+    .plan {
+        font-size: 77%;
+    }
 
     /* CONTACT US */
-    .section-form{margin-right: 0;}
+    .section-form {
+        margin-right: -90px;
+    }
 
+    /* FOOTER */
+    .footer-nav {
+        width: 100%;
+    }
+    .social-links {
+        width: 100%;
+    }
+
+    /* small phones to small tablet */
+    /*ipad is 768px*/
+
+    @media only screen and (max-width: 867px) {
+        html {
+            font-size: 12x;
+        }
+        body {
+            /* font-size: 16px; */
+        }
+        section {
+            padding: 30px;
+        }
+        .row,
+        .hero-text-box {
+            padding: 0 4%;
+        }
+        .col {
+            width: 100%;
+            margin: 0 0 2% 0;
+        }
+
+        .section-features .long-copy {
+            margin-bottom: 20px;
+        }
+        .long-copy {
+            font-size: 22px;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 150%;
+        }
+
+        .box p {
+            text-align: center;
+            font-size: 20px;
+        }
+        /* TESTIMONIALS */
+        .customer-quote {
+            padding-bottom: 6%;
+        }
+        /* CITIES */
+        .section-cities img {
+            width: 100%;
+            height: auto;
+            padding: 0;
+        }
+        .section-cities h3 {
+            font-size: 150%;
+            margin-bottom: 8px;
+        }
+        .section-cities p {
+            font-size: 110%;
+        }
+
+        .section-cities .icon-small {
+            margin-left: 10px;
+            width: 10%;
+        }
+
+        /* PLANS */
+        .plan-box {
+            margin: auto;
+        }
+        .plan-box div {
+            padding: 15px;
+        }
+        .price-per-meal {
+            font-size: 130%;
+        }
+        .plan {
+            font-size: 120%;
+        }
+
+        /* FOOTER */
+        footer p {
+            margin-top: -2px;
+        }
+
+        /* CONTACT US */
+        .section-form {
+            margin-right: 0;
+        }
+    }
+
+    @media only screen and (max-width: 650px) {
+        body {
+            font-size: 18px;
+        }
+
+        /* .main-nav  */
+        .mobile-nav-icon {
+            display: inline-block;
+        }
+        .main-nav {
+            float: left;
+            margin-top: 35px;
+            display: none;
+            position: absolute;
+            right: 80px;
+        }
+        .main-nav li {
+            display: block;
+            padding-bottom: 7px;
+            font-size: 20px;
+        }
+
+        .main-nav li a:link,
+        .main-nav li a:visited {
+            border: 0;
+        }
+
+        .sticky .main-nav {
+            margin-top: 18px;
+        }
+        .sticky ul {
+            background-color: #ffffff;
+            border-radius: 5px;
+            border: 1px solid #0000002c;
+        }
+        .sticky .main-nav li {
+            margin-left: 0;
+        }
+        .sticky .mobile-nav-icon {
+            margin-top: 15px;
+        }
+
+        .sticky .main-nav li a:link,
+        .sticky .main-nav li a:visited {
+            color: #555;
+            padding: 15px;
+        }
+
+        .sticky ion-icon {
+            color: #000000;
+        }
+    }
+
+    /* small phones */
+    @media only screen and (max-width: 480px) {
+        .app-store-buttons {
+            margin: 0 30%;
+        }
+
+        /* CONTACT US */
+        .section-form {
+            width: 100%;
+        }
+    }
 }
-
-@media only screen and (max-width: 650px){
- 
-    /* .main-nav  */
-    .mobile-nav-icon{display: inline-block}
-    .main-nav {
-        float: left;
-        margin-top: 35px;
-        display: none;
-        position: absolute;
-        right: 80px;
-    } 
-    .main-nav li {
-        display: block;
-        padding-bottom: 7px ;
-        font-size: 20px;
-    }
-
-    .main-nav li a:link,
-    .main-nav li a:visited {
-        border: 0;
-    }
-
-    .sticky .main-nav{
-        margin-top: 18px;
-    }
-    .sticky ul{
-        background-color: #ffffff;
-        border-radius: 5px;
-        border: 1px solid #0000002c;
-        
-    }
-    .sticky .main-nav li{
-        margin-left: 0;
-    }
-    .sticky .mobile-nav-icon{
-        margin-top: 15px;
-    }
-
-    .sticky .main-nav li a:link,
-    .sticky .main-nav li a:visited{
-        color: #555; 
-        padding: 15px;
-    }
-
-    .sticky ion-icon{color: #000000}
-}
-
-
-
-
-/* small phones */
-@media only screen and (max-width: 480px){
-.app-store-buttons {margin: 0 30%;}
-
-/* CONTACT US */
-.section-form{width: 100%;}
-
-}}

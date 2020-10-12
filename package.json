@@ -1,0 +1,32 @@
+{
+    "name": "_NirToledanoMassage",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "concat": "concat -o resources/css/output.css resources/css/style.css resources/css/queries.css resources/css/normalize.css resources/css/ionicons.min.css resources/css/grid.css resources/css/animate.css",
+        "prefix": "postcss resources/css/output.css -u autoprefixer -o resources/css/prefixed.css",
+        "minify": "cleancss -o resources/css/final.css resources/css/prefixed.css",
+        "build:css": "npm-run-all concat prefix minify"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yardenporat/Nir-Toledano-Massage-Therapist.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/yardenporat/Nir-Toledano-Massage-Therapist/issues"
+    },
+    "homepage": "https://github.com/yardenporat/Nir-Toledano-Massage-Therapist#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "autoprefixer": "^10.0.1",
+        "concat": "^1.0.3",
+        "css-minify": "^1.0.1",
+        "npm-run-all": "^4.1.5",
+        "postcss": "^8.1.1",
+        "postcss-cli": "^8.1.0"
+    }
+}
