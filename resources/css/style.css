@@ -243,9 +243,15 @@ header {
     background-image: -webkit-gradient(
             linear,
             left top,
-            left bottom,
-            from(rgba(253, 246, 235, 01)),
-            to(rgba(253, 246, 235, 0.2))
+            right top,
+            from(rgba(235, 164, 138, 0.2)),
+            to(rgba(235, 164, 138, 0.5))
+        ),
+        url(img/hero.jpg);
+    background-image: -o-linear-gradient(
+            left,
+            rgba(235, 164, 138, 0.2),
+            rgba(235, 164, 138, 0.5)
         ),
         url(img/hero.jpg);
     background-image: linear-gradient(
@@ -258,7 +264,6 @@ header {
     background-position: center;
     background-attachment: fixed;
     height: 100vh; /* 100% of the viewport */
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 97%);
 }
 
 .hero-text-box {
@@ -325,7 +330,7 @@ header {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.952);
     box-shadow: 0 2px 1px rgb(221, 221, 221);
-    z-index: 9999;
+    z-index: 99999;
 }
 
 .sticky .main-nav {
@@ -623,6 +628,10 @@ blockquote::before {
     height: 300px;
 }
 
+.get-in-touch:last-child {
+    margin-bottom: 1rem;
+}
+
 .section-form {
     /* width: 50%; */
     margin: 0 auto 0 auto;
@@ -700,11 +709,6 @@ footer li {
     text-decoration: none;
 }
 
-.footer-nav a:hover,
-.footer-nav a:active {
-    color: rgb(212, 212, 212);
-}
-
 .social-links .fb a:hover {
     color: #4267b2;
 }
@@ -729,8 +733,12 @@ footer p {
     transition: color 0.2s;
 }
 
-footer p :visited {
+footer a:link,
+footer a:visited {
     color: gray;
+}
+footer a:hover {
+    color: rgb(212, 212, 212);
 }
 
 /* ---------------------------------------- */
@@ -882,7 +890,7 @@ footer p :visited {
     font-style: italic;
     line-height: 1.15;
 }
-.btn {
+.btn-card {
     cursor: pointer;
     margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
@@ -894,10 +902,10 @@ footer p :visited {
     background-color: black;
     border: none;
 }
-.btn:hover {
+.btn-card:hover {
     background-color: #0d0d0d;
 }
-.btn:focus {
+.btn-card:focus {
     outline: 1px dashed yellow;
     outline-offset: 3px;
 }

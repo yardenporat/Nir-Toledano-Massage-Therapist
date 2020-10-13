@@ -73,28 +73,6 @@ $(document).ready(function () {
             const element = document.querySelector('.js--wp-2');
             element.classList.add('animated', 'fadeInUp');
         },
-        offset: '250px', //apear b4 element end
-    });
-
-    var cities = new Waypoint({
-        element: document.querySelector('.js--wp-3'),
-        handler: function (direction) {
-            //returns down or up
-
-            const element = document.querySelector('.js--wp-3');
-            element.classList.add('animated', 'fadeIn');
-        },
-        offset: '50%', //apear b4 element end
-    });
-
-    var plansAnimation = new Waypoint({
-        element: document.querySelector('.js--wp-4'),
-        handler: function (direction) {
-            //returns down or up
-
-            const element = document.querySelector('.js--wp-4');
-            element.classList.add('animated', 'pulse');
-        },
-        offset: '50%', //apear b4 element end
+        offset: '75%', //apear b4 element end
     });
 });

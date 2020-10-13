@@ -92,9 +92,9 @@
     }
 
     /* CONTACT US */
-    .section-form {
+    /* .section-form {
         margin-right: -90px;
-    }
+    } */
 
     /* FOOTER */
     .footer-nav {
@@ -111,9 +111,7 @@
         html {
             font-size: 12x;
         }
-        body {
-            /* font-size: 16px; */
-        }
+
         section {
             padding: 30px;
         }
@@ -187,6 +185,14 @@
         /* CONTACT US */
         .section-form {
             margin-right: 0;
+        }
+    }
+    @media only screen and (max-width: 850px) {
+        .section-form .span-1-of-2 {
+            width: 100%;
+        }
+        .col.googlemap {
+            display: flex;
         }
     }
 
