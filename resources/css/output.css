@@ -264,8 +264,8 @@ header {
     background-position: center;
     background-attachment: fixed;
     /* height: 100vh; 100% of the viewport */
-    min-height: -webkit-fill-available;
-    min-height: 100vh;
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
 }
 
 .hero-text-box {
