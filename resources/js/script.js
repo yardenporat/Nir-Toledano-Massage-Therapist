@@ -5,10 +5,9 @@ $(document).ready(function () {
         handler: function (direction) {
             const element = document.querySelector('nav');
             if (direction == 'down') {
-                //  $('nav').addClass('sticky',1000);
                 element.classList.add('sticky', 'animated', 'fadeIn');
             } else {
-                $('nav').removeClass('sticky', 1000);
+                $('nav').removeClass('sticky', 500);
                 $('nav').removeClass('animated', 0);
                 $('nav').removeClass('fadeIn', 0);
             }
@@ -43,7 +42,7 @@ $(document).ready(function () {
                     });
             });
         });
-
+    //minified nav icon
     $('.js--nav-icon').on('click', function () {
         const nav = $(document.querySelector('.js--main-nav'));
         const menu = $(document.querySelector('ion-icon[name=menu]'));
