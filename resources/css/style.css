@@ -376,7 +376,7 @@ header {
 /* SHOWCASE */
 /* ---------------------------------------- */
 
-.section-meals {
+.section-pics {
     padding: 0;
 }
 
@@ -623,6 +623,18 @@ blockquote::before {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 350px;
+    width: 400px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 350px;
+    width: 400px;
 }
 
 .get-in-touch {
