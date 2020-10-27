@@ -60,9 +60,9 @@ h3 {
 
 h1 {
     word-spacing: 4px;
-    margin: 20px 20px 0rem 0;
+    margin: 20px 35px 20px 0;
     color: #fff;
-    font-size: 1.7rem;
+    font-size: 2.2rem;
     text-shadow: 4px 1px 10px black;
     font-weight: 500;
 }
@@ -270,7 +270,7 @@ header {
 
 .hero-text-box {
     position: absolute;
-    width: 1140px;
+    width: 100vw;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -314,7 +314,8 @@ header {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    font-size: 90%;
+    font-size: 120%;
+    font-weight: 400;
     -webkit-transition: border-bottom 0.4s;
     transition: border-bottom 0.4s;
     padding: 6px 0;
@@ -387,7 +388,6 @@ header {
 .showcase li {
     display: block;
     float: left;
-    -,size: ;
     width: 25%;
 }
 
@@ -525,12 +525,16 @@ blockquote div {
     margin: 20px 0 0 0;
     display: block;
 }
+.testimonals_name {
+    display: flex;
+    justify-content: flex-end;
+}
 cite {
     vertical-align: middle;
     font-style: italic;
     font-size: 130%;
-    padding: 0 0 12% 3%;
-    display: inline-block;
+    padding: 3% 0 12% 3%;
+    display: block;
 }
 
 blockquote::before {
@@ -801,7 +805,7 @@ footer a:hover {
 }
 @media (min-width: 800px) {
     .page-content {
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 .card {
@@ -866,20 +870,20 @@ footer a:hover {
     transform: translateY(-50%);
     transition: transform calc(var(--d) * 2) var(--e);
 }
-.card:nth-child(1):before {
+/* .card:nth-child(1):before {
     background-image: url(https://images.unsplash.com/photo-1542848284-8afa78a08ccb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=300&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-}
-.card:nth-child(2):before {
+} */
+.card:nth-child(1):before {
     background-image: url(https://images.unsplash.com/photo-1573124356308-f3b77ecf0517?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
 }
-.card:nth-child(3):before {
+.card:nth-child(2):before {
     background-image: url(https://images.unsplash.com/photo-1519823551278-64ac92734fb1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
 }
-.card:nth-child(4):before {
+.card:nth-child(3):before {
     background-image: url(https://images.unsplash.com/photo-1544784179-ae1535e9f013?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=300&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
     background-position: center;
 }
-.card:nth-child(5):before {
+.card:nth-child(4):before {
     background-image: url(img/kinesio-min.jpg);
     background-position: center;
 }
